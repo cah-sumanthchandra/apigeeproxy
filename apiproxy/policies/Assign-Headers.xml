@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage async="false" continueOnError="false" enabled="true" name="Assign-Headers">
+    <DisplayName>Assign Headers</DisplayName>
+    <Properties/>
+    <Set>
+        <Headers>
+            <Header name="Content-Type">application/json</Header>
+            <Header name="Accept">application/json</Header>
+            <Header name="Authorization">SSWS {private.oktaKey}</Header>
+        </Headers>
+        <Verb>POST</Verb>
+        <Path/>
+    </Set>
+</AssignMessage>

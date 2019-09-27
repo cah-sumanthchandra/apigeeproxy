@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<KeyValueMapOperations async="false" continueOnError="false" enabled="true" name="Key-Value-Map-Operations" mapIdentifier="VoiceBotOktaKey">
+    <DisplayName>Key Value Map Operations</DisplayName>
+    <Properties/>
+    <Get assignTo="private.oktaKey">
+        <Key>
+            <Parameter>VoiceBotOktaKey</Parameter>
+        </Key>
+    </Get>
+</KeyValueMapOperations>

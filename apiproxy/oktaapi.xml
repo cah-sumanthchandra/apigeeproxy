@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="2" name="oktaapi">
+    <Basepaths>/oktaapi</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1565286700908</CreatedAt>
+    <CreatedBy>sbuddineni@leomail.tamuc.edu</CreatedBy>
+    <Description>okta API's</Description>
+    <DisplayName>oktaapi</DisplayName>
+    <LastModifiedAt>1565286700908</LastModifiedAt>
+    <LastModifiedBy>sbuddineni@leomail.tamuc.edu</LastModifiedBy>
+    <ManifestVersion>SHA-512:22700e39cfa4a4d2f4d673a30c3e5429def0bcd39e26c54289dfec2b20c80b02ade7dfddc39a2d1361270a9ef961ea72fc707af23d28ec6a2830b6a0176855a3</ManifestVersion>
+    <Policies>
+        <Policy>Assign-Headers</Policy>
+        <Policy>Assign-Message-1</Policy>
+        <Policy>Extract-CHIA-Variables</Policy>
+        <Policy>Extract-Variables-1</Policy>
+        <Policy>Extract-Variables</Policy>
+        <Policy>Get-OKTA-API-Key</Policy>
+        <Policy>Get-StateResponse-Variables</Policy>
+        <Policy>Get-Temp-Password</Policy>
+        <Policy>Invalidate-State-Token</Policy>
+        <Policy>JavaScript-1</Policy>
+        <Policy>JavaScript-2</Policy>
+        <Policy>Key-Value-Map-Operations</Policy>
+        <Policy>SMS-Factor-Verify</Policy>
+        <Policy>SMS-Verify-Variabels</Policy>
+        <Policy>Service-Callout</Policy>
+        <Policy>Varify-the-Status-of-Token</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>ResetPassword</ProxyEndpoint>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>jsc://Script-1.js</Resource>
+        <Resource>jsc://Script-2.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>ResetPassword</TargetEndpoint>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

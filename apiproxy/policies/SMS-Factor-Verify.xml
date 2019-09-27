@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ServiceCallout async="false" continueOnError="false" enabled="true" name="SMS-Factor-Verify">
+    <DisplayName>SMS Factor Verify</DisplayName>
+    <Properties/>
+    <Request clearPayload="true" variable="unlockRequest">
+        <IgnoreUnresolvedVariables>false</IgnoreUnresolvedVariables>
+        <Set>
+            <!--Headers>
+                <Header name="Accept">"application/json"</Header>
+                <Header name="Content-Type">"application/json"</Header>
+            </Headers-->
+            <Payload Accept="application/json" contentType="application/json"> 
+                {
+                    "stateToken": "{OKTA.stToken}",
+                    "passCode": "{OKTA.otp}"
+                }
+            </Payload>
+        </Set>
+    </Request>
+    <Response>unlockResponse</Response>
+    <HTTPTargetConnection>
+        <Properties/>
+        <!--URL>https://cardinalb2e.oktapreview.com/api/v1/authn</URL-->
+        <LoadBalancer>
+            <Server name="TS-CAHB2EOkta01"/>
+        </LoadBalancer>
+        <Path>/api/v1/authn/recovery/factors/sms/verify</Path>
+    </HTTPTargetConnection>
+</ServiceCallout>

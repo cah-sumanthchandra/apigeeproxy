@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExtractVariables async="false" continueOnError="false" enabled="true" name="Extract-CHIA-Variables">
+    <DisplayName>Extract CHIA Variables</DisplayName>
+    <Properties/>
+    <Header name="stateToken">
+        <Pattern ignoreCase="false">{stToken}</Pattern>
+    </Header>
+    <Header name="type">
+        <Pattern ignoreCase="false">{actionType}</Pattern>
+    </Header>
+    <Header name="accessCode">
+        <Pattern ignoreCase="false">{otp}</Pattern>
+    </Header>
+    <VariablePrefix>OKTA</VariablePrefix>
+</ExtractVariables>

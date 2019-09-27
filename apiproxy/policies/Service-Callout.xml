@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ServiceCallout async="false" continueOnError="false" enabled="true" name="Service-Callout">
+    <DisplayName>Service Callout</DisplayName>
+    <Properties/>
+    <Request clearPayload="true" variable="myRequest">
+        <IgnoreUnresolvedVariables>false</IgnoreUnresolvedVariables>
+        <Set>
+            <!--Headers>
+                <Header name="Accept">"application/json"</Header>
+                <Header name="Content-Type">"application/json"</Header>
+            </Headers-->
+            <Headers>
+                <Header name="Content-Type">application/json</Header>
+                <Header name="Accept">application/json</Header>
+                <Header name="Authorization">SSWS {private.oktaKey}</Header>
+            </Headers>
+            <Verb>GET</Verb>
+        </Set>
+    </Request>
+    <Response>getUserStatusResponse</Response>
+    <HTTPTargetConnection>
+        <Properties/>
+        <!--URL>https://cardinalb2e.oktapreview.com/api/v1/authn</URL-->
+        <!--URL>https://cardinalb2e.oktapreview.com/api/v1/authn</URL-->
+        <LoadBalancer>
+            <Server name="TS-CAHB2EOkta01"/>
+        </LoadBalancer>
+        <Path>/api/v1/users/sumanthchandra.buddi</Path>
+    </HTTPTargetConnection>
+</ServiceCallout>

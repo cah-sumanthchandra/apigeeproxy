@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExtractVariables async="false" continueOnError="false" enabled="true" name="Get-StateResponse-Variables">
+    <DisplayName>Get StateResponse Variables</DisplayName>
+    <Properties/>
+    <Source>stateTokenResponse</Source>
+    <VariablePrefix>tokenResponse</VariablePrefix>
+    <JSONPayload>
+        <Variable name="status">
+            <JSONPath>$.status</JSONPath>
+        </Variable>
+        <Variable name="recoveryType">
+            <JSONPath>$.recoveryType</JSONPath>
+        </Variable>
+    </JSONPayload>
+</ExtractVariables>

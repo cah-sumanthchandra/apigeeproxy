@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="Assign-Headers" version="SHA-512:5bfb80710fb1247d5e79b4805fde86d791237ba1e0c43693d58bfd449c0709644a592133fbcb7ebef47fa3e1c47f5dfd42ebeb6aa3a1a64d6182f17caf6993b2"/>
+        <VersionInfo resourceName="Assign-Message-1" version="SHA-512:0925bf3ef513fde33aef3f7241283ffe4faf46555af340fd8c76c98f406642088e39b01d9973daf30365409955938441e7dac2b579edf040b38e583bc7acd56b"/>
+        <VersionInfo resourceName="Extract-CHIA-Variables" version="SHA-512:536cd4590f74670fc5c08b632e1614421d3bd7f90cc02c6496855f13f10d24cbe45402c6a94bc27e5a5a2ddbd0e3a914de557ab35ff78a4395950ad10a3b3ee8"/>
+        <VersionInfo resourceName="Extract-Variables" version="SHA-512:5ce8459ae6c114b9c1d0fcfd81d291dbd1ca149c698d7acc4b6c8484b198011e5a1835309743d237572e5d1560b82d60868a785529ee4f47e1ffc24fe6b5204c"/>
+        <VersionInfo resourceName="Extract-Variables-1" version="SHA-512:586abcd1b2062754edc3584d7ffd35c3f57c13ab68b86f5a5892c9fc439606698fb7e413673853d0d61d9c163596fac32186b839d579cf2ad95c2f3dcfd27203"/>
+        <VersionInfo resourceName="Get-OKTA-API-Key" version="SHA-512:7b4b54fb909f18230c7ceb4bbefeb3d8f7b468a7d1b231e875ca8a1df0114b20d61b0e9355f17987f251255f0d8da206716606d3bf26b3c6153f532f2837b8da"/>
+        <VersionInfo resourceName="Get-StateResponse-Variables" version="SHA-512:877b745ba29c1b4e5038175f3027a13d83d33d7e64ca3b6bd0b18732f5cfa9f4b7bf461c9778557e6396865e13c51e3cccdab2f014c66a7f02c3a9b2c151e33d"/>
+        <VersionInfo resourceName="Get-Temp-Password" version="SHA-512:ae10a67f4917152845c34638ac4e2b9037d31c7312d0709e7c6d9cd6bd06bb91ea707f99be7a8d957ffd2ada908d256e7bcc6aded1e13caf34dc1bf424f65a2e"/>
+        <VersionInfo resourceName="Invalidate-State-Token" version="SHA-512:7326d287246fe1f948eb2c188316c21025b40e6ea143fcea7e646e24025351e2eeebf18b93b7af71930ddc96b454e9a3dd2933da4d4ebd036a8843a262f98eff"/>
+        <VersionInfo resourceName="JavaScript-1" version="SHA-512:9cd0774e40ba79e8df119810f75f80dd0ed28206ea2135a4ffda48097307638dd97252dc95ca8b61690aea33b144e92b4ec2570ec6ce7cebd85caba7f666b08f"/>
+        <VersionInfo resourceName="JavaScript-2" version="SHA-512:dc38806cfd05a07595c01e710c4293ad19b985bbeb75006e3f53089b3d715723b07b35e50462df60d2871ccb7fbee40c69497e3cb64150134e8068167128ee44"/>
+        <VersionInfo resourceName="Key-Value-Map-Operations" version="SHA-512:ab714fe08c60026c677edad4aceec72bff1983516b9ae8c56157dafdcb25cb6f8f01758e1c62a22bba55247d3811e357408bf40779f4e5ff74be549836f46baf"/>
+        <VersionInfo resourceName="SMS-Factor-Verify" version="SHA-512:a7bb3413bb9468178c94bef9fc45acb184577eab64c42831c7380aea26d6d7638b793272a72a8cad842ec5b2fddaf842ea4905949890d06e9a28086c05c71fe4"/>
+        <VersionInfo resourceName="SMS-Verify-Variabels" version="SHA-512:6d84aefa909705cb197d883ce65eb5c84b4f640e459aae0254e44280f7d2e154eb71829c235fceead13f7b9db41357340d75777562dbe4605eb4971b1a91cf11"/>
+        <VersionInfo resourceName="Service-Callout" version="SHA-512:c05c275dc64240773e18c152aff92b436b80f56037e195c3dc94e826a4ec0d9714caf5aa8abc59a61ef767c6981cd61abee484374c576f8be863a7b372e0a5a0"/>
+        <VersionInfo resourceName="Varify-the-Status-of-Token" version="SHA-512:ffb87a1aff5d2fd251faef3db576e37ce68549c5600a5ec480574013c8a48aa7acdda1f5dd73b896fee7a275a1e34c14c4eb3a9f7955c4656dc99b45d651d0bc"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="ResetPassword" version="SHA-512:3faec4bc82bb32c154a800a437729971ff306e6d11e0699fc216ee178814ceaab007e55864107e77dc690f0c90cc055470586e2cb6b76a39d3cc8c4f64817548"/>
+        <VersionInfo resourceName="default" version="SHA-512:2977feaaa49a61009a528576fd6360b57a84eff3f652f272b1f8dff5ee87fe8aea4f3f5be0339df1a5bba5b249c6cd64e22bb3bea1baf8bedaceb4d8a52075ac"/>
+    </ProxyEndpoints>
+    <Resources>
+        <VersionInfo resourceName="jsc://Script-1.js" version="SHA-512:1edbbc4c99c5d774285ffd40d56377fc20e2cb2ef669a39f8a3893a8df0a07e6ab6bc9daa290329bbd9bb84b38070d7dc8262bfd9d2b3d9b3b5e9686d9b4300d"/>
+        <VersionInfo resourceName="jsc://Script-2.js" version="SHA-512:35abb0fefbdedb7652a9ab30fca9b92e3e4ac8bb57d50af1a56e00851ca31ee3f51a93345012e714fe5455a66d74b0d27efdc917bc6903b8e3ec96ee70e30060"/>
+    </Resources>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="ResetPassword" version="SHA-512:f94acbd62ae5e135db3b3aac90a1bcbae16720c84a2acf0ef23dc86afd3206a9d5d57003e8b4b32e0622d416b3e3e4905abf6545e59402811254d6b76b69a564"/>
+        <VersionInfo resourceName="default" version="SHA-512:04b97e13d16e2270847770df7cea340540f85a69eec49fa8b4e9c480a1cd5c7e39824bc84fd05e460738a08b9b3a383993beae8b9b55946fdc0fe4f10d245e16"/>
+    </TargetEndpoints>
+</Manifest>

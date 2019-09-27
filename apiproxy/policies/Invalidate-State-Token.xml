@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ServiceCallout async="false" continueOnError="false" enabled="true" name="Invalidate-State-Token">
+    <DisplayName>Invalidate State Token</DisplayName>
+    <Properties/>
+    <Request clearPayload="true" variable="invalidToken">
+        <IgnoreUnresolvedVariables>false</IgnoreUnresolvedVariables>
+        <Set>
+            <!--Headers>
+                <Header name="Accept">"application/json"</Header>
+                <Header name="Content-Type">"application/json"</Header>
+            </Headers-->
+            <Verb>POST</Verb>
+            <Payload Accept="application/json" contentType="application/json"> 
+                {
+                    "stateToken": "{OKTA.stToken}"
+                }
+            </Payload>
+        </Set>
+    </Request>
+    <Response>stateTokenResponse</Response>
+    <HTTPTargetConnection>
+        <Properties/>
+        <!--URL>https://cardinalb2e.oktapreview.com/api/v1/authn/cancel</URL-->
+        <LoadBalancer>
+            <Server name="TS-CAHB2EOkta01"/>
+        </LoadBalancer>
+        <Path>/api/v1/authn/cancel</Path>
+    </HTTPTargetConnection>
+</ServiceCallout>

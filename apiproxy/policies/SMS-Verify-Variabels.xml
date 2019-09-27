@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExtractVariables async="false" continueOnError="false" enabled="true" name="SMS-Verify-Variabels">
+    <DisplayName>SMS Verify Variabels</DisplayName>
+    <Properties/>
+    <Source>unlockResponse</Source>
+    <VariablePrefix>tokenResponse</VariablePrefix>
+    <JSONPayload>
+        <Variable name="status">
+            <JSONPath>$.status</JSONPath>
+        </Variable>
+        <Variable name="userID">
+            <JSONPath>$._embedded.user.id</JSONPath>
+        </Variable>
+        <Variable name="recoveryType">
+            <JSONPath>$.recoveryType</JSONPath>
+        </Variable>
+    </JSONPayload>
+</ExtractVariables>

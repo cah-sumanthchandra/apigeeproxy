@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExtractVariables async="false" continueOnError="false" enabled="true" name="Extract-Variables-1">
+    <DisplayName>Extract Variables-1</DisplayName>
+    <Properties/>
+    <VariablePrefix>user</VariablePrefix>
+    <JSONPayload>
+        <Variable name="id">
+            <JSONPath>$.id</JSONPath>
+        </Variable>
+        <Variable name="status">
+            <JSONPath>$.status</JSONPath>
+            <!--JSONPath>$.[*].profile.phoneNumber</JSONPath-->
+            <!-- Returns specific value as array ["PhoneNumber"] -->
+        </Variable>
+    </JSONPayload>
+</ExtractVariables>
