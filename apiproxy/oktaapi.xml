@@ -17,7 +17,7 @@
         <Policy>Extract-Variables</Policy>
         <Policy>Get-OKTA-API-Key</Policy>
         <Policy>Get-StateResponse-Variables</Policy>
-        <Policy>Get-Temp-Password</Policy>
+        <Policy>Get-Temp-Passwordd</Policy>
         <Policy>Invalidate-State-Token</Policy>
         <Policy>JavaScript-1</Policy>
         <Policy>JavaScript-2</Policy>
